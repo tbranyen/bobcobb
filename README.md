@@ -1,30 +1,16 @@
-Consumare
----------
+Maestro
+-------
 
-> Consume content from Git
+Simplify working with Node's cluster module.
 
-**Stable: 0.1.0**
-
-Maintained by Tim Branyen [@tbranyen](http://twitter.com/tbranyen).
-
-#### Install ####
 
 ``` bash
-npm install consumare
+npm install maestro
 ```
-
-#### Configure a repository ####
 
 ``` javascript
-var consumare = require("consumare");
-
-// Assuming your Git repository is named content and your work is in the
-// master branch.
-consumare.configure("content", { repo: ".git", branch: "master" });
-```
-
-#### Unit tests ####
-
-``` bash
-npm test
+// Allow the maestro to facilitate the spawning of child processes.
+if (process.env.NODE_ENV === "production" && require("cluster").isMaster) {
+  return require("maestro").startup();
+}
 ```
