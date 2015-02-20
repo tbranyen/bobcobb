@@ -3,9 +3,6 @@ const path = require("path");
 const pkg = require("../../package.json");
 
 describe("Maestro", function() {
-  before(fixtures.setup);
-  after(fixtures.teardown);
-
   afterEach(function() {
     delete require.cache[require.resolve(libpath + "index")];
   });
