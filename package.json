@@ -1,17 +1,11 @@
 {
-  "name": "maestro",
-  "version": "0.0.1",
+  "name": "bobcobb",
+  "version": "0.0.0",
   "description": "Spawn and maintain Node clusters.",
   "main": "lib",
   "author": "Tim Branyen (@tbranyen)",
   "license": "MIT",
-  "dependencies": {
-    "marked": "~0.3.2",
-    "combyne": "~0.3.5",
-    "highlight.js": "~8.0.0",
-    "q": "~1.0.1",
-    "nodegit": "~0.1.2"
-  },
+  "dependencies": {},
   "scripts": {
     "test": "istanbul cover _mocha -- -r test/runner test/lib/**"
   },
