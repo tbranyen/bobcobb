@@ -15,11 +15,11 @@ if (process.env.NODE_ENV === "production" && require("cluster").isMaster) {
 }
 ```
 
-### Question: Why the name Bob Cobb?
+#### Why the name Bob Cobb?
 
-Answer:
-
-Someone already took the name maestro on NPM, so I decided to name it after
-the character with the same name in Seinfeld.
+Someone already took the name maestro on
+[NPM](https://npmjs.org/package/maestro), so I decided to name it after the
+character with the same name in
+[Seinfeld](http://seinfeld.wikia.com/wiki/Bob_Cobb).
 
 ![](https://raw.githubusercontent.com/tbranyen/bobcobb/master/bobcobb.jpg)
