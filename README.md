@@ -22,4 +22,4 @@ Answer:
 Someone already took the name maestro on NPM, so I decided to name it after
 the character with the same name in Seinfeld.
 
-![](bobcobb.png)
+![](https://raw.githubusercontent.com/tbranyen/bobcobb/master/bobcobb.jpg)
