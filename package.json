@@ -1,6 +1,6 @@
 {
   "name": "bobcobb",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Spawn and maintain Node clusters.",
   "main": "lib",
   "author": "Tim Branyen (@tbranyen)",
