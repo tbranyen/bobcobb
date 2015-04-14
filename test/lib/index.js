@@ -19,5 +19,6 @@ describe("Bobcobb", function() {
     assert.ok(typeof bobcobb.startup === "function");
     assert.ok(typeof bobcobb.teardown === "function");
     assert.ok(typeof bobcobb.restart === "function");
+    assert.ok(Array.isArray(bobcobb.workers));
   });
 });
